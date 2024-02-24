@@ -5331,7 +5331,7 @@ textarea.form-control-lg {
   color: var(--bs-modal-color);
   pointer-events: auto;
   /*background-color: var(--bs-modal-bg);*/
-  background-color: #0d1a28;
+  background-color: #040e1b;
   background-clip: padding-box;
   border: var(--bs-modal-border-width) solid var(--bs-modal-border-color);
   border-radius: var(--bs-modal-border-radius);
@@ -8148,7 +8148,7 @@ textarea.form-control-lg {
 .bg-primary {
   --bs-bg-opacity: 1;
   /*background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;*/
-  background-color: #0d1a28/*, var(--bs-bg-opacity) !important*/;
+  background-color: #040e1b/*, var(--bs-bg-opacity) !important*/;
 }
 
 .bg-secondary {
@@ -10854,7 +10854,7 @@ html {
 /*Cambiar el fondo de los divs*/
 .page-section {
   padding: 6rem 0;
-  background-color:  #0d1a28 ;
+  background-color:  #040e1b ;
 }
 .page-section .page-section-heading {
   font-size: 2.25rem;
@@ -11068,12 +11068,12 @@ html {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color:  #0d1a28 ;
+  background-color:  #040e1b ;
   color: #fff;
 }
 
 .copyright {
-  background-color:  #0d1a28 ;
+  background-color:  #040e1b ;
 }
 
 .project-container {
@@ -11104,8 +11104,8 @@ html {
 }
 
 .project-container {
-  border: 3px solid #ffff; /* Color del borde */
-  background-color: #36275f; /* Color de fondo */
+  border: 3px solid #0c4a6e; /* Color del borde */
+  background-color: #061736; /* Color de fondo */
   border-radius: 10px; /* Bordes redondeados */
   z-index: -1;
  /* overflow: hidden; /* Asegura que el borde y el fondo se apliquen solo al área del contenedor */
