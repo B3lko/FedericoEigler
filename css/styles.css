@@ -10,6 +10,22 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+.flags{
+  width: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flags_item{
+  width: 30px;
+}
+
+.flags_img{
+  display: block;
+  cursor: pointer;
+}
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -97,7 +113,8 @@ body {
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
   line-height: var(--bs-body-line-height);
-  color: var(--bs-body-color);
+  /*color: var(--bs-body-color);*/
+  color: #fff;
   text-align: var(--bs-body-text-align);
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
@@ -5313,7 +5330,8 @@ textarea.form-control-lg {
   width: 100%;
   color: var(--bs-modal-color);
   pointer-events: auto;
-  background-color: var(--bs-modal-bg);
+  /*background-color: var(--bs-modal-bg);*/
+  background-color: #0d1a28;
   background-clip: padding-box;
   border: var(--bs-modal-border-width) solid var(--bs-modal-border-color);
   border-radius: var(--bs-modal-border-radius);
@@ -8041,7 +8059,9 @@ textarea.form-control-lg {
 
 .text-secondary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
+  /*color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;*/
+  color: rgba(255,255,255), var(--bs-text-opacity) !important;
+
 }
 
 .text-success {
@@ -8127,7 +8147,8 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  /*background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;*/
+  background-color: #0d1a28/*, var(--bs-bg-opacity) !important*/;
 }
 
 .bg-secondary {
@@ -10830,12 +10851,15 @@ html {
   scroll-padding-top: calc(4.5rem - 1px);
 }
 
+/*Cambiar el fondo de los divs*/
 .page-section {
   padding: 6rem 0;
+  background-color:  #0d1a28 ;
 }
 .page-section .page-section-heading {
   font-size: 2.25rem;
   line-height: 2rem;
+  color: #000;
 }
 @media (min-width: 992px) {
   .page-section .page-section-heading {
@@ -10855,7 +10879,8 @@ html {
   width: 100%;
   max-width: 7rem;
   height: 0.25rem;
-  background-color: #2c3e50;
+  /*background-color: #2c3e50;*/
+  background-color: #fff;
   border-radius: 1rem;
   border-color: #2c3e50;
 }
@@ -10866,7 +10891,8 @@ html {
   margin-left: 1rem;
 }
 .divider-custom .divider-custom-icon {
-  color: #2c3e50;
+  /*color: #2c3e50;*/
+  color: #fff;
   font-size: 2rem;
 }
 .divider-custom.divider-light .divider-custom-line {
@@ -10933,6 +10959,7 @@ html {
   #mainNav .navbar-nav {
     margin-top: 0;
   }
+  /*Color barra*/
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
     background: #1abc9c;
@@ -11003,6 +11030,8 @@ html {
   border-radius: 0.5rem;
   overflow: hidden;
 }
+
+/*Color del cuando pasamos el mouse por encima*/
 .portfolio .portfolio-item .portfolio-item-caption {
   position: absolute;
   top: 0;
@@ -11011,6 +11040,7 @@ html {
   opacity: 0;
   background-color: rgba(26, 188, 156, 0.9);
 }
+
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
 }
@@ -11034,13 +11064,62 @@ html {
   }
 }
 
+/*Titulo de descargar al final*/
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #2c3e50;
+  background-color:  #0d1a28 ;
   color: #fff;
 }
 
 .copyright {
-  background-color: #1a252f;
+  background-color:  #0d1a28 ;
+}
+
+.project-container {
+  text-align: justify;
+  margin-top: 0px;
+}
+
+.project-details img {
+  max-width: 100%; /* La imagen no se extenderá más allá de su ancho original */
+  /*display: block; /* Elimina el espacio adicional debajo de la imagen */
+  margin: 0 auto; /* Centra la imagen dentro de su contenedor */
+}
+.project-details h4 {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.project-details img {
+  /*width: 80px;
+  height: 30px;
+ /* margin-right: 5px;*/
+  
+ display: inline-table;
+  margin: 0 auto;
+  max-width: 27%;
+  max-height: 100px; /* Establece la altura máxima para las imágenes */
+}
+
+.project-container {
+  border: 3px solid #ffff; /* Color del borde */
+  background-color: #36275f; /* Color de fondo */
+  border-radius: 10px; /* Bordes redondeados */
+  z-index: -1;
+ /* overflow: hidden; /* Asegura que el borde y el fondo se apliquen solo al área del contenedor */
+}
+
+.project-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  pointer-events: none; /* Evita que el borde adicional interno afecte a la interacción del ratón */
+  z-index: -1; /* Coloca el borde detrás del contenido */
 }
