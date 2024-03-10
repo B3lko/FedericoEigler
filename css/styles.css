@@ -129,12 +129,22 @@ hr {
   opacity: 0.25;
 }
 
-h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
-  margin-top: 0;
-  margin-bottom: 3rem;
+h6, .h6, h5, .h5, h3, .h3, h1, .h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   line-height: 1.2;
+  height: 40px;
+}
+
+h2, .h2 {
+  margin-top: 0%;
+  margin-bottom: 10%;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  line-height: 1.2;
+  height: 40px;
 }
 
 h1, .h1 {
@@ -147,12 +157,27 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  font-size: calc(1.325rem + 0.9vw);
+  font-size: calc(2rem + 1.5vw);
+  margin-bottom: 15%;
+  margin-top: 5%;
 }
 @media (min-width: 1200px) {
   h2, .h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
+    margin-bottom: 5.5%;
+    margin-top: 2.5%;
+    .portfff {
+      font-size: calc(1.325rem + 1.5vw); /* Tamaño de fuente personalizado para la clase excluida en pantallas más grandes */
+    }
   }
+
+  .contme {
+    font-size: calc(1.325rem + 1.0vw); /* Tamaño de fuente personalizado para la clase excluida en pantallas más grandes */
+  }
+  .portfff {
+    font-size: calc(1.325rem + 1.0vw); /* Tamaño de fuente personalizado para la clase excluida en pantallas más grandes */
+  }
+
 }
 
 h3, .h3 {
@@ -161,15 +186,6 @@ h3, .h3 {
 @media (min-width: 1200px) {
   h3, .h3 {
     font-size: 1.75rem;
-  }
-}
-
-h4, .h4 {
-  font-size: calc(1.275rem + 0.3vw);
-}
-@media (min-width: 1200px) {
-  h4, .h4 {
-    font-size: 1.5rem;
   }
 }
 
@@ -182,8 +198,8 @@ h6, .h6 {
 }
 
 p {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
 
 abbr[title] {
@@ -622,6 +638,7 @@ progress {
   background-color: #061736; /* Color de fondo */
   border-top-left-radius: 0.4rem;
   border-top-right-radius: 0.4rem;
+  border-radius: 0rem;
 
 }
 
@@ -709,7 +726,7 @@ progress {
 }
 .row > * {
   flex-shrink: 0;
-  width: 100%;
+  width: auto;
   max-width: 100%;
   padding-right: calc(var(--bs-gutter-x) * 0.5);
   padding-left: calc(var(--bs-gutter-x) * 0.5);
@@ -10871,12 +10888,13 @@ html {
 
 /*Cambiar el fondo de los divs*/
 .page-section {
-  padding: 6rem 0;
+  padding: 3rem 0;
   background-color:  #001938 ;
 }
 
+/*paddddding*/
 .page-section2 {
-  padding: 6rem 0;
+  padding: 3rem 0;
   background-color:  #000c1c ;
 }
 
@@ -10970,6 +10988,7 @@ html {
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.8rem;
+  border-color: #00b5e8;
 }
 
 @media (min-width: 992px) {
@@ -11059,8 +11078,10 @@ html {
   cursor: pointer;
   position: relative;
   display: block;
-  max-width: 25rem;
-  border-radius: 0.5rem;
+  /*max-width: 25rem;*/
+  max-width: 100%;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
   overflow: hidden;
 }
 
@@ -11117,6 +11138,7 @@ html {
 .project-container {
   text-align: justify;
   margin-top: 0px;
+  width: auto;
 }
 
 .project-details img {
@@ -11124,7 +11146,7 @@ html {
   /*display: block; /* Elimina el espacio adicional debajo de la imagen */
   margin: 0 auto; /* Centra la imagen dentro de su contenedor */
 }
-.project-details-GameName h4 {
+.project-details-GameName:not(.text-Belko) h4 {
   margin-bottom: 10px;
   margin-top: 10px;
 }
@@ -11134,10 +11156,17 @@ html {
 
 }
 
-.project-details {
-  margin-left: 25px;
-  margin-right: 25px;
 
+.project-details {
+ /* margin-left: 25px;
+  margin-right: 25px;*/
+  padding-left: 25px;
+  padding-right: 25px;
+
+}
+
+.autojaja{
+  width: auto;
 }
 
 .project-details p{
@@ -11166,11 +11195,13 @@ html {
   background-color: #061736; /* Color de fondo */
   border-radius: 10px; /* Bordes redondeados */
   z-index: -1;
+  width: 100%;
  /* overflow: hidden; /* Asegura que el borde y el fondo se apliquen solo al área del contenedor */
 }
 
 .project-container::before {
   content: "";
+  width: auto;
   position: absolute;
   top: 0;
   left: 0;
@@ -11186,6 +11217,182 @@ html {
   text-align: left;
   margin-left: 0px;
   color: #00b5e8;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   margin-top: 20px;
+}
+
+.Copy{
+  width: 50px;
+  height: 100%;
+  padding-left: 10%;
+  color: #ffffff;
+}
+
+/* Estilos para las columnas */
+.contenedor {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Permite que los elementos se envuelvan a la siguiente línea */
+}
+
+.columna {
+  width: 48%; /* Ancho de cada columna */
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  /*padding: 10px;*/
+  
+  align-content: center;
+  margin-top: 50px;
+  border: 3px solid #0c4a6e; /* Color del borde */
+  border-radius: 10px; /* Bordes redondeados */
+  background-color: #061736; /* Color de fondo */
+
+}
+
+/* Media query para dispositivos con un ancho máximo de 600px */
+@media (max-width: 991px) {
+  .columna {
+    width: 100%; /* Cambia el ancho a 100% para que sea de una sola columna */
+  }
+}
+
+h4, .h4 {
+  font-size: calc(1.275rem + 0.3vw);
+}
+@media (min-width: 1200px) {
+  h4, .h4 {
+    font-size: 1.000rem;
+  }
+  .text-Belko {
+    font-size: calc(1.000rem + 0.5vw); /* Tamaño de fuente personalizado para la clase excluida en pantallas más grandes */
+  }
+}
+.text-Belko{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 100%; /* O ajusta el valor según sea necesario */
+  word-wrap: break-word;
+  /*font-size: 1.5em; /* Ajusta el valor según sea necesario */
+  /*font-size: 4vw * 0.5em; /* Ajusta el valor según sea necesario */
+ /* font-size: 2vw * 0.5em; /* Ajusta el valor según sea necesario */
+  /*width: 50%;
+  max-width: 50%;
+  margin-bottom: 20px;
+  padding-left: 10%;
+  padding-right: 10%;*/
+}
+
+.text-Belko h4{
+  font-size: calc(1.275rem + 4.1vw);
+}
+@media (min-width: 1200px) {
+  h4, .h4 {
+    font-size: 1.5rem;
+  }
+
+  
+}
+
+.cont-butt{
+  margin-top: 20px;
+  margin-right: 5%;
+  margin-left: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+  margin-bottom: 20px;
+  padding-left: 2%;
+  padding-right: 2%;
+  font-size: 4%;
+}
+
+.cont-butt2{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20%;
+  margin-left: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+  padding-left: 0%;
+  padding-right: 0%;
+  font-size: 40%;
+}
+
+.cont-butt3{
+  margin-top: 20px;
+  margin-right: 5%;
+  margin-left: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+  margin-bottom: 20px;
+  padding-left: 2%;
+  padding-right: 2%;
+  font-size: 4%;
+  border-color: #00b5e8;
+}
+
+.belcock{
+  border: 3px solid #0c4a6e;
+}
+
+.icon-mail{
+  border: 3px solid #445522;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  width: 50px;
+  height: 50px;
+  margin-left: 5%;
+}
+
+h4, .h4{
+  /*margin-top: 20px;
+  margin-bottom: 20px;*/
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  line-height: 1.2;
+  height: 40px;
+}
+
+.footer-belko{
+  padding-top: 10px;
+}
+
+.Developer{
+  margin-top: 0px;
+  padding-top: 40px;
+}
+
+.tech{
+  text-align: center;
+}
+
+.techstack{
+  border: 3px solid #0c4a6e;
+  background-color: #061736;
+}
+
+.contme{
+  padding-bottom: 5%;
+  margin-top: 2.5%;
+  margin-bottom: 5%;
+}
+
+.Lido{
+  text-align: left;
 }
