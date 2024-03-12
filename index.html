@@ -24,13 +24,14 @@
         <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
             <div class="container">
                 <a class="navbar-brand" href="#page-top">Federico Eigler</a>
-                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded fede" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#Stack">Stack</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
                     </ul>
@@ -38,7 +39,7 @@
             </div>
         </nav>
         <!-- Masthead-->
-        <header class="masthead bg-primary text-white text-center">
+        <header class="masthead bg-primary text-white text-center" style="background: linear-gradient(to bottom, #000c1c, #001938); height: 100vh;">
             <div class="container d-flex align-items-center flex-column">
                 <!-- Masthead Avatar Image-->
                 <img class="masthead-avatar mb-5" src="assets/img/Avatar.png" alt="..." />
@@ -53,32 +54,64 @@
 
 
         <!-- About Section-->
-        <section class="page-section bg-primary text-white mb-0" id="about">
+        <section class="page-section bg-primary text-white mb-0" id="about" style="background: linear-gradient(to bottom, #000c1c, #001938);">
             <div class="container">
                 <!-- About Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
+                <h2 class="page-section-heading text-center text-uppercase text-white" style="margin-top: 50px; margin-bottom: 100px;align-items: center; text-align: center;">About</h2>
                 <!-- About Section Content-->
                 <div class="row">
                     <div class="col-lg-4 ms-auto"><p class="lead">Final year student of the Video Game Design and Programming degree at the National University of the Litoral</p></div>
-                    <div class="col-lg-4 me-auto"><p class="lead">My main technologies are Unity, PIXI.JS and development in C++ with graphics and physics libraries</p></div>
+                    <!--<div class="col-lg-4 ms-auto"><p class="lead">Technician in Video Game Design and Programming graduated from the National University of the Litoral (2022 - 2024)</p></div>
+                    --><div class="col-lg-4 me-auto"><p class="lead">Currently working as a programmer and designer at Angry Cat Games</p></div>
                 </div>
-                <!--<div class="techstack">
-                    <h2 class="tech">Tech Stack</h2>
-                    <h3 class="tech">Engines</h2>
-                    <img src="assets/badges/Unity.svg" alt="..." />
-                    <h3 class="tech">Programming Languages</h2>
-                    <img src="assets/badges/C++.svg" alt="..." />
-                    <img src="assets/badges/CS.svg" alt="..." />
-                    <img src="assets/badges/TS.svg" alt="..." />
-                    <img src="assets/badges/HTML5.svg" alt="..." />
-                </div>-->
+                <div class="row" style="margin-top: 50px; margin-bottom: 100px;">
+                    <div class="col-lg-4 ms-auto"><p class="lead">Course "Development in PIXI.JS environment for industries Audiovisuals, Video Games and Web Development" (2023 -2023)</p></div>
+                    <div class="col-lg-4 me-auto"><p class="lead">Medium level of English and Spanish as a native language</p></div>
+                </div>
+            </div>
+        </section>
+                
+                
+                
+        <section class="page-section bg-primary text-white mb-0" id="Stack" style="background: linear-gradient(to bottom, #000c1c, #001938);">
+            <!--<section class="page-section bg-primary text-white mb-0" id="Stack" style="background-color: #0c4a6e;">linear-gradient(to right, red, blue);-->
+            <div class="container">
+                <h2 style="margin-top: 50px; margin-bottom: 50px;align-items: center; text-align: center;" >Tech Stack</h2>
+                <div class="row" style="align-items: center;display: flex;align-items: center; justify-content: center;">
+                    <!--<div class="row" style="border: 3px solid #0c4a6e; background-color: #061736; border-radius: 10px; align-items: center;display: flex;align-items: center; justify-content: center;">-->
+                    
+                    <div class="col-lg-4" style="width: auto; align-items: center; justify-content: center; margin-left: 50px; margin-right: 50px;  margin-top: 30px;">
+                        <h5 style="align-items: center; justify-content: center; text-align: center; margin-bottom: 0px;">Engines</h5>
+                        <img style="width: 75px; height: 75px;" src="assets/icons/UnityWhite.svg" alt="..." />
+                        <img style="width: 75px; height: 75px;" src="assets/icons/Godot.svg" alt="..." />
+                    </div>
+                    <div class="col-lg-4" style="width: auto;align-items: center; justify-content: center; padding-left: 85px; padding-right: 85px; margin-top: 30px;">
+                        <h5 style="align-items: center; justify-content: center; text-align: center; margin-bottom: 0px;">Lenguajes</h5>
+                        <img style="width: 75px; height: 75px;" src="assets/icons/C++.svg" alt="..." />
+                        <img style="width: 75px; height: 75px;" src="assets/icons/CS.svg" alt="..." />
+                        <img style="width: 75px; height: 75px;" src="assets/icons/JS.svg" alt="..." />
+                        <img style="width: 75px; height: 75px;" src="assets/icons/TS.svg" alt="..." />
+                        <img style="width: 75px; height: 75px;" src="assets/icons/CSS3.svg" alt="..." />
+                        <img style="width: 75px; height: 75px;" src="assets/icons/HTML5.svg" alt="..." />
+                    </div>
+                    <div class="col-lg-4" style="width: auto; margin-left: 50px; margin-right: 50px;  margin-top: 30px;">
+                        <h5 style="align-items: center; justify-content: center; text-align: center; margin-bottom: 0px;">Tools</h5>
+                        <img style="width: 75px; height: 75px;" src="assets/icons/Git.svg" alt="..." />
+                        <img style="width: 75px; height: 75px;" src="assets/icons/GitHubWithe.svg" alt="..." />
+                    </div>
+                    <div class="col-lg-4" style="width: auto; margin-left: 50px; margin-right: 50px; margin-bottom: 50px;  margin-top: 30px;">
+                        <h5 style="align-items: center; justify-content: center; text-align: center; margin-bottom: 0px;">Libraries</h5>
+                        <img style="width: 75px; height: 75px;" src="assets/icons/Pixijs.svg" alt="..." />
+                        <img style="width: 75px; height: 75px;" src="assets/icons/box.svg" alt="..." />
+                        <img style="width: 75px; height: 75px;" src="assets/icons/sfml.svg" alt="..." />
+                    </div>
+                </div>
             </div>
         </section>
 
 
-
         <!-- Portfolio Section-->
-        <section class="page-section2 portfolio" id="portfolio">
+        <section class="page-section2 portfolio" id="portfolio" style="background: linear-gradient(to bottom, #000c1c, #001938);">
             <div class="container">
                 <!-- Portfolio Section Heading-->
                 <h2 class="page-section-heading text-center text-uppercase text-white portfff">Portfolio</h2>
@@ -99,15 +132,15 @@
                             <div class="project-details">
                             <h4 class="GameName">Farm Day</h4>
                             <p>Educational with 2D Minigames</p>
-                            <div style="display: flex; justify-content: center;">
+                            <img src="assets/badges/Unity.svg" alt="..." />
+                            <img src="assets/badges/CS.svg" alt="..." />
+                            <div style="display: flex; justify-content: center;  margin-top: 7.5px; margin-bottom: 7.5px;">
                                 <a class="cont-butt" style="margin-right: 10px; width: 45%; margin-top: 0px">
-                                    <button class="btn btn-primary class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1" type="button" style="width: 100%;">See more</button>
-                                <a class="cont-butt" href="https://belko27.itch.io/sfrv2" target="_blank" style="width: 45%; margin-top: 0px">
-                                    <button class="btn btn-primary" type="button" style="width: 100%;">Play</button>
+                                    <button class="btn btn-primary2 class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1" type="button" style="width: 100%;">See more</button>
+                                <a class="cont-butt" href="https://app.legendsoflearning.com/game/farm-day/3867?partner=legends-developer&learning_objective_id=977" target="_blank" style="width: 45%; margin-top: 0px">
+                                    <button class="btn btn-primary2" type="button" style="width: 100%;">Play</button>
                                 </a>
                             </div>
-                                <img src="assets/badges/Unity.svg" alt="..." />
-                                <img src="assets/badges/CS.svg" alt="..." />
                             </div>
                         </div>
                     </div>
@@ -125,15 +158,15 @@
                             <div class="project-details">
                             <h4 class="GameName">The Endless Dock</h4>
                             <p>Endless Runner 3D</p>
-                            <div style="display: flex; justify-content: center;">
+                            <img src="assets/badges/Unity.svg" alt="..." />
+                            <img src="assets/badges/CS.svg" alt="..." />
+                            <div style="display: flex; justify-content: center;  margin-top: 7.5px; margin-bottom: 7.5px;">
                                 <a class="cont-butt3" style="margin-right: 10px; width: 45%; margin-top: 0px">
-                                    <button class="btn btn-primary class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2" type="button" style="width: 100%;">See more</button>
+                                    <button class="btn btn-primary2 class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2" type="button" style="width: 100%;">See more</button>
                                 <a class="cont-butt3" href="https://belko27.itch.io/the-endless-dock" target="_blank" style="width: 45%; margin-top: 0px">
-                                    <button class="btn btn-primary" type="button" style="width: 100%;">Play</button>
+                                    <button class="btn btn-primary2" type="button" style="width: 100%;">Play</button>
                                 </a>
                             </div>
-                                <img src="assets/badges/Unity.svg" alt="..." />
-                                <img src="assets/badges/CS.svg" alt="..." />
                             </div> 
                         </div>
                     </div>
@@ -145,22 +178,22 @@
                                 <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                     <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid2" src="assets/img/portfolio/SantaFeRunner/SFR_Wallpaper.png" alt="..." />
+                                <img class="img-fluid2" src="assets/img/portfolio/SantaFeRunner/SFR_Wallpaper3.png" alt="..." />
                             </div>
                             <div class="project-details">
                                 <h4 class="GameName">Santa Fe Runner</h4>
                                 <p>Endless Runner 2D Platforms</p>
-                                <div style="display: flex; justify-content: center;">
-                                    <a class="cont-butt" style="margin-right: 10px; width: 45%; margin-top: 0px">
-                                        <button class="btn btn-primary class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3" type="button" style="width: 100%;">See more</button>
-                                    <a class="cont-butt" href="https://belko27.itch.io/sfrv2" target="_blank" style="width: 45%; margin-top: 0px">
-                                        <button class="btn btn-primary" type="button" style="width: 100%;">Play</button>
-                                    </a>
-                                </div>
                                 <img src="assets/badges/pixijs.svg" alt="..." />
                                 <img src="assets/badges/TS.svg" alt="..." />
                                 <img src="assets/badges/HTML5.svg" alt="..." />
                                 <img src="assets/badges/CSS3.svg" alt="..." />
+                                <div style="display: flex; justify-content: center; margin-top: 7.5px; margin-bottom: 7.5px;">
+                                    <a class="cont-butt" style="margin-right: 10px; width: 45%; margin-top: 0px">
+                                        <button class="btn btn-primary2 class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3" type="button" style="width: 100%;">See more</button>
+                                    <a class="cont-butt" href="https://belko27.itch.io/sfrv2" target="_blank" style="width: 45%; margin-top: 0px">
+                                        <button class="btn btn-primary2" type="button" style="width: 100%;">Play</button>
+                                    </a>
+                                </div>
                             </div> 
                         </div>
                     </div>
@@ -169,7 +202,7 @@
         </section>
 
         <!-- Contact Section-->
-        <section class="page-section" id="contact">
+        <section class="page-section" id="contact" style="background: linear-gradient(to bottom, #000c1c, #001938);">
             <div class="container">
                 <!-- Contact Section Heading-->
                 <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0 contme">Contact Me</h2>
@@ -179,7 +212,7 @@
             <div class="contenedor">
                 <div class="columna">
                     <div class=" cont-butt">
-                        <h6 class="text-Belko text-uppercase"><a href="mailto:fedeeigler@hotmail.com">fedeeigler@hotmail.com</a></h6>
+                        <h6 style="width: auto;align-items: center; justify-content: center; display: flex;" class="text-Belko text-uppercase"><a style="width: auto;align-items: center; justify-content: center; display: flex; margin: 0px;" href="mailto:fedeeigler@hotmail.com">fedeeigler@hotmail.com</a></h6>
                         <h6 class="text-Belko text-uppercase"><a href="whatsapp://send?phone=5493424863288">+54 9 342 486 3288</a></h6>
                         <div style="display: flex; justify-content: center;">
                             <a class="cont-butt" href="https://www.linkedin.com/in/federico-eigler-2b3194283/" target="_blank" style="margin-right: 10px; width: 45%;">
@@ -199,13 +232,13 @@
                 </div>
                 <div class="columna">
                     <div class=" cont-butt">
-                        <a class="cont-butt" href="assets/PDFs/Federico_Eigler_CV_2024.pdf" download="Federico_Eigler_CV_2024.pdf" target="_blank">
+                        <a class="cont-butt" href="assets/PDFs/Federico_Eigler_CV_2024_ES.pdf" download="Federico_Eigler_CV_2024_ES.pdf" target="_blank">
                             <button  class="btn btn-primary" type="button">CV Español PDF</button>
                         </a>
-                        <a class="cont-butt" href="assets/PDFs/Federico_Eigler_CV_2024.pdf" download="Federico_Eigler_CV_2024.pdf" target="_blank">
+                        <a class="cont-butt" href="assets/PDFs/Federico_Eigler_CV_2024_EN.pdf" download="Federico_Eigler_CV_2024_EN.pdf" target="_blank">
                             <button  class="btn btn-primary" type="button">CV English PDF</button>
                         </a>
-                        <a class="cont-butt" href="assets/PDFs/Eigler Federico.pdf" download="Federico_Eigler_CV_2024.pdf" target="_blank">
+                        <a class="cont-butt" href="assets/PDFs/Eigler Federico.pdf" download="Federico_Eigler_Certificates.pdf" target="_blank">
                             <button  class="btn btn-primary" type="button">Certificates PDF</button>
                         </a>
                     </div>
@@ -271,9 +304,11 @@
                                     <!-- Icon Divider-->
                                     <!-- Portfolio Modal - Image-->
                                     <p class="mb-4">The Endless Dock is a 3D Endless Runner, Developed in Unity. It is a video game with a pirate theme where the player must have three lanes and must move between them and jump to avoid the obstacles that approach the dock.</p>
+                                    <p class="mb-4">The game was created as the final project of the subject "Manipulation of 3D objects" of the video game design and programming degree.</p>
                                     <p class="mb-4">Both the obstacles and the map are generated as the character reaches the limits of the map.</p>
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/TheEndlessDock/TED_Screen_1.PNG" alt="..." />
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/TheEndlessDock/TED_Screen_2.PNG" alt="..." />
+                                    <p class="mb-4">I programmed a shader that gives the effect of "World Bending" similar to Animal Crossing or Subway Surfer to give the effect that the horizon curves</p>
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/TheEndlessDock/TED1.PNG" alt="..." />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/TheEndlessDock/TED3.PNG" alt="..." />
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/TheEndlessDock/TED_Screen_3.PNG" alt="..." />
                                     <!-- Portfolio Modal - Text-->
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
@@ -291,7 +326,7 @@
         <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
             <div class="modal-dialog modal-xl">
                 <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close" style="color: aqua;"></button></div>
                     <div class="modal-body text-center pb-5">
                         <div class="container">
                             <div class="row justify-content-center">
@@ -303,13 +338,15 @@
                                     <p class="mb-4">Santa Fe Runner is a 2D platform Endless Runner created as a final project for a course. The game was developed using the PIXI.JS library over a period of approximately 3 months. The project automatically adapts to the device it is being played on without the need to configure anything.</p>
                                     <p class="mb-4">The objective is to get the highest score possible by avoiding obstacles that appear randomly. These obstacles can be jumped or the character can roll to go under them. In addition, there are collectible objects that are used to get another chance if you hit an obstacle.</p>
                                     <p class="mb-4">An important newspaper in the city of Santa Fe that saw the Video Game wrote a note to me that was published in the city newspaper <a href="https://www.ellitoral.com/area-metropolitana/videojuegos-curso-municipalidad-capital-activa-tic-tecnologias_0_Ba3CqPY13v.html?utm_medium=whatsapp" target="_blank">See interview</a> </p>
-                                    <p class="mb-4">The game is available to play from Itch.io by clicking on  <a href="https://belko27.itch.io/sfrv2" target="_blank">Santa Fe Runner</a> </p>
-                                   
-
+                                    <p class="mb-4">After that, I was invited to a technology trends fair in the city of Santa Fe, where someone recorded the video game and posted it to an Instagram page, the video got more than half a million views.</p>
+                                    <p class="mb-4">Then a television station contacted me to do an interview. The interview can be seen at <a href="https://www.youtube.com/watch?v=fIQy7VZjiCc" target="_blank">See interview</a> </p>
+                                    <p class="mb-4">Then I was invited to another technology fair, where with a friend who is an artist we went back to making the game assets and I proceeded to add a database to make a system of best scores.</p>
                                     
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/SantaFeRunner/SFR_Screen_1.png" alt="..." />
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/SantaFeRunner/SFR_Screen_2.png" alt="..." />
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/SantaFeRunner/SFR_Screen_3.png" alt="..." />
+                                    <h6 style="padding-bottom: 10px; margin-bottom: 10px; margin-top: 0px">Photo from the interview for the newspaper "El Litoral"</h6>
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/SantaFeRunner/SFR_Screen_3.jpeg" alt="..." />
+                                    <h6 style="padding-bottom: 10px; margin-bottom: 20px; margin-top: 0px">Photo of the game exhibition at the "Tech Trends 2024" at the Belgrano station</h6>
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/SantaFeRunner/SFR_Screen_4.jpeg" alt="..." />
                                     <!-- Portfolio Modal - Text-->
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
