@@ -5,7 +5,7 @@ let translations = {};
   // Cargar las traducciones desde el archivo JSON
   async function loadTranslations() {
     try {
-      const response = await fetch('/json/languages.json');
+      const response = await fetch('json/languages.json');
       translations = await response.json();
       changeLanguage(supportedLanguages[currentLanguageIndex]);  // Cargar el primer idioma por defecto
     } catch (error) {
