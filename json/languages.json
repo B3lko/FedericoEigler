@@ -13,7 +13,7 @@
     "edu": "Educación",
     "tecnico": "Tecnicatura en diseño y programación de videojuegos. En la Universidad Nacional del Litoral. Facultad de Ingeniería y Ciencias Hídricas. (Cursando el último año).",
     "curso": "Curso",
-    "curso-pixi": "Curso ''Desarrollo en entorno PIXI.JS para industrias Audiovisuales, Videojuegos y Desarrollo Web''. Curso dado por The Rabbit Hole",
+    "curso-pixi": "Curso ''Desarrollo en entorno PIXI.JS para industrias Audiovisuales, Videojuegos y Desarrollo Web''. Curso dado por The Rabbit Hole. (Completo)",
     "freelance-text": "Trabajo como programador y diseñador de video juegos para Angry Cat Games, desarrollando videojuegos para Legends of Learning utilizando Unity.",
     "more": "Mas",
     "play": "Jugar",
@@ -37,7 +37,13 @@
     "hiotw-modal-2": "El juego cuenta con dos personajes jugables, un arquero y un caballero que atacara con su espada, y los enemigos constan de orcos y barriles explosivos.",
     "hiotw-modal-3": "El juego es compatible con GamePads y cuenta con un menú de configuración persistente.",
     "footer": "© Federico Eigler | Todos los derechos reservados",
-    "btn-modal": "Cerrar ventana"
+    "btn-modal": "Cerrar ventana",
+    "looter-desc": "Terror en primera persona",
+    "looter-modal-1": "The Looter es un juego de terror en primera persona que pone a prueba la astucia y la habilidad del jugador para sobrevivir en un oscuro cementerio, mientras saquea tumbas en busca de tesoros antiguos. La historia gira en torno a un personaje que, armado con un misterioso libro de saqueos, se adentra en un cementerio prohibido para desenterrar riquezas ocultas. Sin embargo, su tarea no es tan sencilla como parece; debe lidiar con los constantes peligros de la vigilancia del cuidador y su fiel perro guardián.",
+    "looter-modal-2": "El jugador deberá encontrar y cavar en tumbas específicas, guiándose por el libro de saqueos que detalla las localizaciones. A medida que avanza, se encontrará con mausoleos cerrados que contienen las llaves necesarias para abrir zonas cruciales, lo que obliga a explorar cada rincón del mapa para reunir las llaves escondidas. La experiencia de saqueo se ve intensificada por un enigma que permite el acceso a la capilla del cementerio. Un candado con un código de tres dígitos bloquea la entrada a una tumba de vital importancia. Los números de este código están dispersos por el mapa, cada uno identificado con un color correspondiente; encontrar cada pista y resolver este rompecabezas es esencial para avanzar en la historia.",
+    "looter-modal-3": "El cuidador y su perro representan un peligro constante. Si el jugador se acerca demasiado, el perro ladra, alertando al cuidador, quien puede atacar al jugador si logra acercarse. Esta mecánica de sigilo, combinada con la necesidad de resolver el rompecabezas y saquear las tumbas sin ser detectado, crea una experiencia inmersiva y aterradora.",
+    "pasantia-text": "Pasantia en la ''División Tecnologías de la Información'' (DTI) en la ''Facultad de Ciencias Económicas'' de la ''Universidad Nacional del Litoral'' (FCE - UNL). Donde realicé tareas de mantenimiento, instalación de software y sistemas operativos, gestión de redes, entre otras tareas.",
+    "pasantia-title": "Pasantia"
   },
   "en": {
     "language_name": "Español",
@@ -47,13 +53,13 @@
     "contact": "Contact",
     "developer": "Videogame Developer",
     "Cert": "Certificates",
-    "home-text": "Final year student of the technical degree in video game programming and design at the National University of the Litoral. Currently doing an internship at the Faculty of Economic Sciences in the support area.",
+    "home-text": "Final year student of the Technical Degree in Video Game Design and Programming at the ''Universidad Nacional del Litoral''. Currently doing an internship at the Faculty of Economic Sciences in the support area.",
     "uni": "University",
     "exp": "Experience",
     "edu": "Education",
-    "tecnico": "Technicality in video game design and programming. At the National University of the Litoral. Faculty of Engineering and Water Sciences. (Studying the last year).",
+    "tecnico": "Technical Degree in Video Game Design and Programming. At the ''Universidad Nacional del Litoral'' at the ''Facultad de Ingeniería y Ciencias Hídricas''. (Studying the last year).",
     "curso": "Course",
-    "curso-pixi": "Course ''Development in PIXI.JS environment for industries Audiovisuals, Video Games and Web Development''. Course given by The Rabbit Hole",
+    "curso-pixi": "Course ''Development in PIXI.JS environment for industries Audiovisuals, Video Games and Web Development''. Course given by The Rabbit Hole. (Completed)",
     "freelance-text": "I work as a programmer and game designer for Angry Cat Games, developing games for Legends of Learning using Unity.",
     "more": "More",
     "play": "Play",
@@ -63,7 +69,7 @@
     "farm-modal-2": "The project was developed entirely with Unity, the scripts are programmed in C# and json files were used to manage the loading of different languages.",
     "farm-modal-3": "Some of the minigames consist of cutting down a tree without the trunks hitting the farmer, placing ingredients in a bowl in a certain order to cook a cake, arranging pipes to make compost and other mechanics.",
     "dock-modal-1": "The Endless Dock is a 3D Endless Runner, Developed in Unity. It is a video game with a pirate theme where the player must have three lanes and must move between them and jump to avoid the obstacles that approach the dock.",
-    "dock-modal-2": "The game was created as the final project of the subject ''Manipulation of 3D objects'' of the video game design and programming degree.",
+    "dock-modal-2": "The game was created as the final project of the subject ''Manipulation of 3D objects'' of the ''Technical Degree in Video Game Design and Programming''.",
     "dock-modal-3": "Both the obstacles and the map are generated as the character reaches the limits of the map.",
     "dock-modal-4": "I programmed a shader that gives the effect of ''World Bending'' similar to Animal Crossing or Subway Surfer to give the effect that the horizon curves",
     "sfr-modal-1": "Santa Fe Runner is a 2D platform Endless Runner created as a final project for a course. The game was developed using the PIXI.JS library over a period of approximately 3 months. The project automatically adapts to the device it is being played on without the need to configure anything.",
@@ -77,6 +83,12 @@
     "hiotw-modal-2": "The game features two playable characters, an archer and a knight who attacks with his sword, and the enemies consist of orcs and explosive barrels.",
     "hiotw-modal-3": "The game supports GamePads and features a persistent settings menu.",
     "footer": "© Federico Eigler | All Rights Reserved",
-    "btn-modal": "Close Window"
+    "btn-modal": "Close Window",
+    "looter-desc": "Horror in first person",
+    "looter-modal-1": "The Looter is a first-person horror game that challenges players to survive a night in a haunted graveyard while looting graves for ancient treasures. Armed with a mysterious book detailing specific graves to rob, the player must dig for treasures in marked locations. However, danger is ever-present, as they must evade both a vigilant groundskeeper and his alert guard dog.",
+    "looter-modal-2": "As players progress, they’ll encounter locked mausoleums that require hidden keys scattered across the cemetery grounds. To access a crucial tomb in the chapel, players must solve a color-coded puzzle. A three-digit lock guards the tomb, with each digit identified by a color. These numbers are scattered across the map, adding a layer of suspense and strategy as players piece together the code while avoiding detection.",
+    "looter-modal-3": "The groundskeeper and his dog constantly roam the area. If players get too close, the dog barks, alerting the groundskeeper to the player’s presence, who will strike if he gets too near. This stealth mechanic, combined with the need to solve puzzles and loot graves under pressure, creates a deeply immersive and terrifying experience.",
+    "pasantia-text": "Internship in the ''División Tecnologías de la Información'' (DTI) at the ''Facultad de Ciencias Económicas'' of the ''Universidad Nacional del Litoral'' (FCE - UNL). Where I performed maintenance tasks, installation of software and operating systems, network management, among other tasks.",
+    "pasantia-title": "Internship"
   }
 }
