@@ -36,6 +36,8 @@
     "hiotw-modal-1": "Help Is On The Way es un Survival Shooter Top Down 2D creado en Godot como proyecto final para la asignatura 'Programación de videojuegos 3'. El objetivo es sobrevivir cierta cantidad de tiempo, esquivando y derrotando enemigos.",
     "hiotw-modal-2": "El juego cuenta con dos personajes jugables, un arquero y un caballero que atacara con su espada, y los enemigos constan de orcos y barriles explosivos.",
     "hiotw-modal-3": "El juego es compatible con GamePads y cuenta con un menú de configuración persistente.",
+    "eco-modal-1": "Eco Links es un videojuego educativo que desarrollé trabajando para Angry Cat Games para la empresa Legend Of Learning. El juego trata de comer a las presas mientras evitar ser comidos por depredadores, para aprender sobre la cadena alimenticia",
+    "mym-modal-1": "Math & Meal es un videojuego educativo que desarrollé trabajando para Angry Cat Games para la empresa Legend Of Learning. El juego consiste en resolver problemas matematicos sencillos relacionados al restaurante con el fin de aprender matematicas",
     "footer": "© Federico Eigler | Todos los derechos reservados",
     "btn-modal": "Cerrar ventana",
     "looter-desc": "Terror en primera persona",
@@ -43,7 +45,9 @@
     "looter-modal-2": "El jugador deberá encontrar y cavar en tumbas específicas, guiándose por el libro de saqueos que detalla las localizaciones. A medida que avanza, se encontrará con mausoleos cerrados que contienen las llaves necesarias para abrir zonas cruciales, lo que obliga a explorar cada rincón del mapa para reunir las llaves escondidas. La experiencia de saqueo se ve intensificada por un enigma que permite el acceso a la capilla del cementerio. Un candado con un código de tres dígitos bloquea la entrada a una tumba de vital importancia. Los números de este código están dispersos por el mapa, cada uno identificado con un color correspondiente; encontrar cada pista y resolver este rompecabezas es esencial para avanzar en la historia.",
     "looter-modal-3": "El cuidador y su perro representan un peligro constante. Si el jugador se acerca demasiado, el perro ladra, alertando al cuidador, quien puede atacar al jugador si logra acercarse. Esta mecánica de sigilo, combinada con la necesidad de resolver el rompecabezas y saquear las tumbas sin ser detectado, crea una experiencia inmersiva y aterradora.",
     "pasantia-text": "Pasantia en la ''División Tecnologías de la Información'' (DTI) en la ''Facultad de Ciencias Económicas'' de la ''Universidad Nacional del Litoral'' (FCE - UNL). Donde realicé tareas de mantenimiento, instalación de software y sistemas operativos, gestión de redes, entre otras tareas.",
-    "pasantia-title": "Pasantia"
+    "pasantia-title": "Pasantia",
+    "eco-desc": "Educativo y simulacion 3D",
+    "mym-desc": "Educativo de matemáticas 3D"
   },
   "en": {
     "language_name": "Español",
@@ -82,6 +86,8 @@
     "hiotw-modal-1": "Help Is On The Way is a 2D Top Down Survival Shooter created in Godot as a final project for the subject 'Video Game Programming 3'. The objective is to survive a certain amount of time, avoiding and defeating enemies.",
     "hiotw-modal-2": "The game features two playable characters, an archer and a knight who attacks with his sword, and the enemies consist of orcs and explosive barrels.",
     "hiotw-modal-3": "The game supports GamePads and features a persistent settings menu.",
+    "eco-modal-1": "Eco Links is an educational video game that I developed working for Angry Cat Games for the company Legend Of Learning. The game is about eating prey while avoiding being eaten by predators, to learn about the food chain.",
+    "mym-modal-1": "Math & Meal is an educational video game that I developed working for Angry Cat Games for the company Legend of Learning. The game involves solving simple restaurant-related math problems to learn math.",
     "footer": "© Federico Eigler | All Rights Reserved",
     "btn-modal": "Close Window",
     "looter-desc": "Horror in first person",
@@ -89,6 +95,8 @@
     "looter-modal-2": "As players progress, they’ll encounter locked mausoleums that require hidden keys scattered across the cemetery grounds. To access a crucial tomb in the chapel, players must solve a color-coded puzzle. A three-digit lock guards the tomb, with each digit identified by a color. These numbers are scattered across the map, adding a layer of suspense and strategy as players piece together the code while avoiding detection.",
     "looter-modal-3": "The groundskeeper and his dog constantly roam the area. If players get too close, the dog barks, alerting the groundskeeper to the player’s presence, who will strike if he gets too near. This stealth mechanic, combined with the need to solve puzzles and loot graves under pressure, creates a deeply immersive and terrifying experience.",
     "pasantia-text": "Internship in the ''División Tecnologías de la Información'' (DTI) at the ''Facultad de Ciencias Económicas'' of the ''Universidad Nacional del Litoral'' (FCE - UNL). Where I performed maintenance tasks, installation of software and operating systems, network management, among other tasks.",
-    "pasantia-title": "Internship"
+    "pasantia-title": "Internship",
+    "eco-desc": "Educational and simulation 3D",
+    "mym-desc": "3D Math Educational"
   }
 }
